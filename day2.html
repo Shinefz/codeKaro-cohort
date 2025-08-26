@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Fruits DATA</h1>
+    <table border>
+        <tr>
+            <th>Name</th>
+            <th>Color</th>
+            <th>Taste</th>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>Red</td>
+            <td>Sweet</td>
+        </tr>
+        <tr>
+            <td>Mango</td>
+            <td>Yellow</td>
+            <td>Sour</td>
+        </tr>
+        <tr>
+            <td>Orange</td>
+            <td>Orange</td>
+            <td>Sour</td>
+        </tr>
+        <tr>
+            <td>Papaya</td>
+            <td>Yellow</td>
+            <td>Sweet</td>
+        </tr>
+    </table>
+
+    <h2>Favourite Movies (Unordered List)</h2>
+    <ul type="disc">
+        <li>Waqt</li>
+        <li>Tanu Weds Manu</li>
+        <li>Jai Ho</li>
+        <li>Tiger</li>
+        <li>Pathan</li>
+    </ul>
+
+    <h2>Ordered List</h2>
+    <h3>Making Tea</h3>
+    <ol type="1">
+        <li>Take some water in a pan</li>
+        <li>Add sugar and Tata tea</li>
+        <li>Then add some milk</li>
+    </ol>
+
+    <hr>
+
+    <h2>User Information Form</h2>
+    <form action="#" method="post">
+        <!-- Name Input -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" minlength="3" maxlength="50" required>
+        <br><br>
+
+        <!-- Email Input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <!-- Gender Radio -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label><br>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        <!-- Age Range Dropdown -->
+        <label for="age">Age Range:</label>
+        <select id="age" name="age" required>
+            <option value="">--Select Age Range--</option>
+            <option value="18-24">18-24</option>
+            <option value="25-34">25-34</option>
+            <option value="35-44">35-44</option>
+            <option value="45-54">45-54</option>
+            <option value="55+">55+</option>
+        </select>
+        <br><br>
+
+        <!-- Newsletter Checkbox -->
+        <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+        <label for="newsletter">Subscribe to our Newsletter</label>
+        <br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
