@@ -1,0 +1,27 @@
+.dribble-cards{
+    margin-top: 90px;
+    display:flex;
+    gap:20px;
+    animation-name: card-animation;
+    animation-duration: 20s;
+    height: 100px;
+    width: 300px;
+}
+@keyframes card-animation{
+    0%{}
+    100%{
+
+    }
+}
+.dribble-cards::-webkit-scrollbar{
+    display:none
+}
+
+.cards{
+    width:250px;
+    height:260px;
+    background-color: blueviolet;
+    border-radius: 18px;
+    flex-shrink: 0;
+    background-color: pink;
+}
